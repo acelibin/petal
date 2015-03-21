@@ -1,9 +1,9 @@
 [submodule "vendors/js-url"]
 	path = vendors/js-url
-	url = git://github.com/websanova/js-url.git
+	url = https://github.com/websanova/js-url
 [submodule "vendors/atwho.js"]
 	path = vendors/atwho.js
-	url = git://github.com/ichord/at.js.git
+	url = https://github.com/ichord/at.js
 [submodule "vendors/marked"]
 	path = vendors/marked
-	url = git://github.com/chjj/marked.git
+	url = https://github.com/chjj/marked
