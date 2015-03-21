@@ -3,7 +3,7 @@
 	url = git://github.com/websanova/js-url.git
 [submodule "vendors/atwho.js"]
 	path = vendors/atwho.js
-	url = git://github.com/ichord/At.js.git
+	url = git://github.com/ichord/at.js.git
 [submodule "vendors/marked"]
 	path = vendors/marked
 	url = git://github.com/chjj/marked.git
