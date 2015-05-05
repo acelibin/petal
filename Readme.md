@@ -20,8 +20,8 @@ First, new an issue for petal use, and then copy the codes below to your webpage
 <!-- jquery 1.7+ required -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <!-- petal begin -->
-<link rel="stylesheet" href="http://hit9.org/petal/css/petal.min.css" type="text/css" />
-<script src="http://hit9.org/petal/build/petal.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="http://hit9.github.io/petal/css/petal.min.css" type="text/css" />
+<script src="http://hit9.github.io/petal/build/petal.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
     $(document).ready(function(){  // important!
         $.petal.init("user/repo", issue_id) // $.petal.init(repo, issue_id)
@@ -93,7 +93,7 @@ application = app = Flask(__name__)
 @app.route("/")
 def index():
     code = request.args.get("code")
-    callback = request.args.get("callback", "http://hit9.org/petal")
+    callback = request.args.get("callback", "http://hit9.github.io/petal")
 
     client_id = "2ae54488ab61bc732407"
     client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
