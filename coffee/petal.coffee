@@ -19,7 +19,7 @@ pt = 'petal_token'
 
 # loader
 
-loader = 'http://hit9.org/petal/static/octocat-loader.gif'
+loader = 'http://hit9.github.io/petal/static/octocat-loader.gif'
 
 petal =
   repo: 'user/repo'

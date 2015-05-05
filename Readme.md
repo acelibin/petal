@@ -6,7 +6,7 @@ Github issues powered comments. Inspired by [sirbrad/comcom](https://github.com/
 Live Demo
 ---------
 
-http://hit9.org/petal/
+http://hit9.github.io/petal/
 
 
 How to use
@@ -61,7 +61,7 @@ Developers
 2. install dependences(coffee, sass and node-minify, java runtime):
 
   ```
-  sudo npm install -g coffee-script
+  npm install -g coffee-script
   npm install node-minify
   gem install sass
   ```
